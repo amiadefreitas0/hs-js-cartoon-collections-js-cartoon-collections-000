@@ -36,7 +36,6 @@ function longPlaneteerCalls(words) {
 
  //function find the cheese should be able to find the cheese
 function findTheCheese (foods) {
-  var foods = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 
 let cheese = ["cheddar", "gouda", "camembert"]
 
@@ -54,5 +53,4 @@ return ("no cheese!");
 dwarfRollCall(dwarves);
 summonCaptainPlanet(planeteerCalls);
 longPlaneteerCalls(assortedWords);
-
-findTheCheese(soup);
+findTheCheese(foods);
