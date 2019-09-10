@@ -24,7 +24,7 @@ function summonCaptainPlanet(planeteerCalls){
 
 ///The function should tell us if any of the calls are longer than four characters.
 // this has to be true or false
-//for loop so that 
+//for loop so that
 function longPlaneteerCalls(words) {
   for(let i = 0; i < words.length; i++){
     if (words[i].length > 4){
@@ -33,11 +33,11 @@ function longPlaneteerCalls(words) {
     return (false);
   }
 }
- 
+
  //function find the cheese should be able to find the cheese
 function findTheCheese (foods) {
   var foods = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-  
+
 let cheese = ["cheddar", "gouda", "camembert"]
 
 for (let i = 0; i < foods.length; i++)
@@ -56,6 +56,3 @@ summonCaptainPlanet(planeteerCalls);
 longPlaneteerCalls(assortedWords);
 
 findTheCheese(soup);
-
-
-
