@@ -45,9 +45,6 @@ for (let i = 0; i < foods.length; i++)
   for (let b = 0; b < cheese.length; b++) {
     if (foods[i] === cheese[b]){
       return(foods[i]);
-    } if (foods[i]< cheese[b]){
-      return (cheese[b]);
-    }
     }
   }
 }
